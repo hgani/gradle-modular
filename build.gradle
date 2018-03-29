@@ -36,8 +36,8 @@ subprojects {
 	apply plugin: 'java'
 	apply plugin: 'maven'
 
-	sourceCompatibility = 1.8 // java 8
-	targetCompatibility = 1.8
+//	sourceCompatibility = 1.8 // java 8
+//	targetCompatibility = 1.8
 
 	task sourcesJar(type: Jar, dependsOn: classes) {
 	    classifier = 'sources'
@@ -54,7 +54,7 @@ subprojects {
 	    archives javadocJar
 	}
 }
-//
+
 //buildscript {
 //	repositories {
 //		jcenter()
