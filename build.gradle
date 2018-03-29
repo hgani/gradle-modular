@@ -51,10 +51,10 @@ subprojects {
 	    from javadoc.destinationDir
 	}
 
-	artifacts {
-	    archives sourcesJar
-	    archives javadocJar
-	}
+//	artifacts {
+//	    archives sourcesJar
+//	    archives javadocJar
+//	}
 }
 
 //buildscript {
